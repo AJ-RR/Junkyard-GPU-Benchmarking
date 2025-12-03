@@ -1,0 +1,34 @@
+device       = Mali-G710
+
+fp32-scalar  = 685.32 GFLOPS
+fp32-vec4    = 716.66 GFLOPS
+
+fp16-scalar  = 690.24 GFLOPS
+fp16-vec4    = 1407.82 GFLOPS
+fp16-matrix  = 0.00 GFLOPS
+
+fp64-scalar  = 0.00 GFLOPS
+fp64-vec4    = 0.00 GFLOPS
+
+int32-scalar = 188.78 GIOPS
+int32-vec4   = 188.93 GIOPS
+
+int16-scalar = 188.85 GIOPS
+int16-vec4   = 377.45 GIOPS
+
+int64-scalar = 31.12 GIOPS
+int64-vec4   = 31.12 GIOPS
+
+int8-dotprod = 2953.42 GIOPS
+int8-matrix  = 0.00 GIOPS
+
+bf16-dotprod = 0.00 GFLOPS
+bf16-matrix  = 0.00 GFLOPS
+
+fp8-matrix   = 0.00 GFLOPS
+bf8-matrix   = 0.00 GFLOPS
+
+copy-h2h     = 10.67 GBPS
+copy-h2d     = 15.97 GBPS
+copy-d2h     = 1.54 GBPS
+copy-d2d     = 19.18 GBPS

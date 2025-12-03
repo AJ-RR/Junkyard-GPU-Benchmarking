@@ -1,0 +1,34 @@
+device       = Tesla T4
+
+fp32-scalar  = 7898.25 GFLOPS
+fp32-vec4    = 7252.98 GFLOPS
+
+fp16-scalar  = 14101.21 GFLOPS
+fp16-vec4    = 9614.01 GFLOPS
+fp16-matrix  = 54890.36 GFLOPS
+
+fp64-scalar  = 253.68 GFLOPS
+fp64-vec4    = 250.72 GFLOPS
+
+int32-scalar = 6300.91 GIOPS
+int32-vec4   = 5803.67 GIOPS
+
+int16-scalar = 4184.34 GIOPS
+int16-vec4   = 3830.52 GIOPS
+
+int64-scalar = 1670.35 GIOPS
+int64-vec4   = 1358.32 GIOPS
+
+int8-dotprod = 5776.79 GIOPS
+int8-matrix  = 100537.09 GIOPS
+
+bf16-dotprod = 0.00 GFLOPS
+bf16-matrix  = 52324.35 GFLOPS
+
+fp8-matrix   = 0.00 GFLOPS
+bf8-matrix   = 0.00 GFLOPS
+
+copy-h2h     = 5.33 GBPS
+copy-h2d     = 5.36 GBPS
+copy-d2h     = 5.53 GBPS
+copy-d2d     = 115.88 GBPS
